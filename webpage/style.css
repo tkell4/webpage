@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	-webkit box-sizing: border-box;}
+
+html{
+	background-color: #999999;
+	background-image: url('sfbridge.png');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+
+body {
+	font-family: Enriqueta , sans-serif;
+	color: #333333;
+	width: 90%;
+	background-color: white;
+    padding: 60px; 
+	margin: 40px auto;
+	box-shadow: 0 0 40px rgba(0,0,0, .5);
+
+/*
+margin: top right bottom left;
+margin: top left/right bottom;
+margin:top/bottom left/right;
+margin:top/right/bottom/left;
+*/
+
+}
+
+a:link{
+	color:#88cc33;
+  	text-decoration: none;
+ }
+a:visited{color: #999999;}
+a:hover{color: #3388cc;}
+a:focus{color: black;
+		background-color: yellow;
+}
+a:active{color: black;}
+
+img {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+/*Select by the ID attribute.*/
+#thumbnail { 
+float: left;
+margin-right: 20px;
+background: white;
+padding: 20px;
+box-shadow: o o 20px rgba(0, 0, 0, .25);
+}
+
+/* If device is at least 500px wide. */
+@media screen and (min-width: 500 px) {
+
+	body{
+		width: 500px;
+		font-size: 125%
+	}
+}
